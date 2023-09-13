@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gildedrose.GildedRoseTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-09-13T15:42:22" hostname="192.168.1.219" time="0.009">
+  <properties/>
+  <testcase name="legendaryItemQuality()" classname="com.gildedrose.GildedRoseTest" time="0.006"/>
+  <testcase name="qualityBetweenZeroAndFifty()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstagePassesIncreaseQualityAsSellInValueApproaches()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePassesIncreaseQualityByDays()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="agedBrieIncreaseQuality()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstagePassesQualityEqualToZeroIfPastSellByDate()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="sellByDatePassedQualityDegradesTwiceAsFast()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
