@@ -70,8 +70,8 @@ class GildedRoseTest {
         // Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less
         Item backstagePasses = new Item("Backstage passes to a TAFKAL80ETC concert",12,15);
         GildedRose uq = new GildedRose(new Item[] {backstagePasses});
-        for(int i = 1; i < backstagePasses.sellIn; i++) {
-            if(i < 11 && i > 5) {
+        for(int i = 1; i < 11; i++) {
+            if(i <= 10 && i > 5) {
                 backstagePasses.sellIn = i;
                 int expected = backstagePasses.quality + 2;
                 uq.updateQuality();
